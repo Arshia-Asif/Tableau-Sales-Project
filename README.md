@@ -1,62 +1,65 @@
 # Tableau-Sales-Project
-Tableau User Story | Sales Performance
-Intorduction
+# 📊 Tableau Dashboard Project: Sales & Customer Performance
 
-This user story outlines the specifications for building two dashboards using tableau to help stakeholders, including sales managers and executives to analyze sales performance and customers. 
-Sales Dashboard | Requirements
-Dashboard Purpose
+## 📌 Introduction
 
-The purpose of sales dashboard is to present an overview of the sales metrics and trends in order to analyze year-over-year sales performance and understand sales trends.
-Key Requirements
-KPI Overview
+This Tableau project delivers two comprehensive dashboards designed to help stakeholders, sales managers, and executives analyze **sales performance** and **customer behavior**. These dashboards support **year-over-year comparisons**, **trend analysis**, and **actionable insights** for better decision-making.
 
-Display a summary of total sales, profits and quantity for the current year and the previous year.
-Sales Trends
+---
 
- – Present the data for each KPI on a monthly basis for both the current year and the previous year.
+## 🧩 Dashboards Overview
 
- – Identify months with highest and lowest sales and make them easy to recognize.
-Product Subcategory Comparison
+### 1. 📈 Sales Dashboard
 
- – Compare sales performance by different product subcategories for the current year and the previous year.
+#### 🎯 Purpose
+Visualize and monitor key sales metrics and trends to evaluate overall performance and discover insights into product performance and sales cycles.
 
- – Include a comparison of sales with profit.
-Weekly Trends for Sales & Profit
+#### ✅ Features
+- **KPI Overview**
+  - Total Sales, Profit, and Quantity (Current vs. Previous Year)
+- **Sales Trends**
+  - Monthly breakdown of KPIs for both years
+  - Highlight highest and lowest sales months
+- **Product Subcategory Comparison**
+  - Sales and profit comparison by product subcategories
+- **Weekly Trends**
+  - Weekly sales and profit trends
+  - Highlight weeks above/below average
 
- – Present weekly sales and profit data for the current year.
+---
 
- – Display the average weekly values.
+### 2. 👥 Customer Dashboard
 
- – Highlight weeks that are above and below the average to draw attention to sales & profit performance.
-Customer Dashboard | Requirements
-Dashboard Purpose
+#### 🎯 Purpose
+Track customer metrics, behavior, and segments to improve engagement and satisfaction.
 
-The customer dashboard aims to provide an overview of customer data, trends and behaviors. It will help marketing teams and management to understand customer segments and improve customer satisfaction.
-Key Requirements
-KPI Overview
+#### ✅ Features
+- **KPI Overview**
+  - Total Customers, Sales per Customer, Number of Orders (Current vs. Previous Year)
+- **Customer Trends**
+  - Monthly trends with visual highlights of peak/low sales months
+- **Customer Distribution**
+  - Histogram of customers by number of orders
+- **Top 10 Customers**
+  - Profit-wise ranking with rank, order count, sales, profit, and last order date
 
-Display a summary of total number of customers , total sales per customer and total number of orders for the current year and the previous year.
-Customer Trends
+---
 
- – Present the data for each KPI on a monthly basis for both the current year and the previous year.
+## 🎨 Design & Interactivity
 
- – Identify months with highest and lowest sales and make them easy to recognize.
-Customer Distribution by Number of Orders
+- **Dynamic Year Selection**  
+  Users can choose any year to view historical data.
 
-Represent the distribution of customers based on the number of orders they have placed to provide insights into customer behavior, loyalty and engagement.
-Top 10 Customers By Profit
+- **Cross-Dashboard Navigation**  
+  Seamless navigation between Sales and Customer dashboards.
 
- – Present the top 10 customers who have generated the highest profits for the company.
+- **Interactive Charts**  
+  Click-to-filter features for all visualizations.
 
- – Show additional information like rank, number of orders, current sales, current profit and the last order date.
-Design & Interactivity Requirements
-Dashboard Dynamic
+- **Customizable Filters**  
+  - Product Category and Subcategory  
+  - Location (Region, State, City)
 
- – The Dashboard should allow users to check historical data by offering them the flexibility to select any desired year.
+---
 
- – Provide users with the ability to navigate between the dashboards easily.
-
- – Make the charts and graphs interactive, enabling users to filter data using the charts.
-Data Filters
-
-Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
+## 📁 Project Structure (Optional)
